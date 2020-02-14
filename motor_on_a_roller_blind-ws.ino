@@ -16,7 +16,7 @@
 //--------------- CHANGE PARAMETERS ------------------
 //Configure Default Settings for Access Point logon
 String APid = "BlindsConnectAP";    //Name of access point
-String APpw = "nidayand";           //Hardcoded password for access point
+String APpw = "1234";           //Hardcoded password for access point
 
 //----------------------------------------------------
 
