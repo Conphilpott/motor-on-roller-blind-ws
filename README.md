@@ -1,6 +1,7 @@
 # Smart Home Blinds Controller
 
-3d parts for printing are available on Thingiverse.com: ["motor on a roller blind"](https://www.thingiverse.com/thing:2392856)
+**Roller Blind** STL files for 3D printing https://www.thingiverse.com/thing:2392856
+**Vertical or Venetian Blind (tilt only)** STL files for 3D printing https://www.thingiverse.com/thing:3923529
 
 **Binary File added flash to ANY ESP8266 BASED DEVICE with DOUT mode selected**
 
