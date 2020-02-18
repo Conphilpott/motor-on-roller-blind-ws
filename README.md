@@ -25,7 +25,7 @@ Simply do not enter any string in the MQTT server form field upon WIFI configura
 - `(0)` - (manual mode) Will stop the curtain
 - `(-1)` - (manual mode) Will open the curtain. Requires `(0)` to stop the motor
 - `(1)`- (manual mode) Will close the curtain. Requires `(0)` to stop the motor
-- `0-100` - (auto mode) A number between 0-100 to set % of opened blind. Requires calibration before use. E.g. `50` will open it to 50%
+- `0-100` - (auto mode) A number between 0-100 to set % of opened blind. Requires calibration before use. E.g. `50` will open it to 50% `(The firmware actually moves the stepper to one position less than the payload. So when you send the esp8266 a payload of 10, it actually moves the stepper to 9 and the MQTT reflects that decremented value.)`
 
 # Required libraries (3rd party)
 - Stepper_28BYJ_48: https://github.com/thomasfredericks/Stepper_28BYJ_48/
