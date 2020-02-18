@@ -3,7 +3,7 @@ WebSocket based version of [motor-on-roller-blind](https://github.com/nidayand/m
 
 3d parts for printing are available on Thingiverse.com: ["motor on a roller blind"](https://www.thingiverse.com/thing:2392856)
 
-**Binary File added flash to ANY ESP8266 based DEVICE with DOUT mode selected**
+**Binary File added flash to ANY ESP8266 BASED DEVICE with DOUT mode selected**
 
  1. A tiny webserver is setup on the esp8266 that will serve one page to the client
  2. Upon powering on the first time WIFI credentials, a hostname and - optional - MQTT server details is to be configured. You can specify if you want **clockwise (CW) rotation** to close the blind and you can also specify **MQTT authentication** if required. Connect your computer to a new WIFI hotspot named **BlindsConnectAP**. Password = **1234**
@@ -27,7 +27,7 @@ Simply do not enter any string in the MQTT server form field upon WIFI configura
 - `(1)`- (manual mode) Will close the curtain. Requires `(0)` to stop the motor
 - `0-100` - (auto mode) A number between 0-100 to set % of opened blind. Requires calibration before use. E.g. `50` will open it to 50% `(The firmware actually moves the stepper to one position less than the payload. So when you send the esp8266 a payload of 10, it actually moves the stepper to 9 and the MQTT reflects that decremented value.)`
 
-# Required libraries (3rd party)
+# Required libraries (if compiling)
 - Stepper_28BYJ_48: https://github.com/thomasfredericks/Stepper_28BYJ_48/
 - PubSubClient: https://github.com/knolleary/pubsubclient/
 - ArduinoJson: https://github.com/bblanchon/ArduinoJson
